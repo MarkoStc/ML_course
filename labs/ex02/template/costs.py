@@ -16,7 +16,6 @@ def compute_loss(y, tx, w):
         the value of the loss (a scalar), corresponding to the input parameters w.
     """
     # ***************************************************
-    # INSERT YOUR CODE HERE
-    # TODO: compute loss by MSE
+    return 1/(2*N)*np.sum((y - tx.T @ w)**2)
     # ***************************************************
     raise NotImplementedError

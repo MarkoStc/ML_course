@@ -24,7 +24,6 @@ def ridge_regression(y, tx, lambda_):
     array([0.03947092, 0.00319628])
     """
     # ***************************************************
-    # COPY YOUR CODE FROM EX03 HERE
-    # ridge regression: TODO
+    return np.linalg.inv(tx.T @ tx + lambda_ * 2*len(tx.T) * np.eye(len(tx.T))) @ tx.T @ y;
     # ***************************************************
     raise NotImplementedError

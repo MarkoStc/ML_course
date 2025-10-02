@@ -105,3 +105,10 @@ ENV/
 *.cb2
 *.fdb_latexmk
 *.synctex.gz
+
+# Ignore large dataset files
+*.csv
+*.zip
+*.tar.gz
+*.npz
+*.h5
